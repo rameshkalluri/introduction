@@ -1,5 +1,11 @@
 # Linux History And Basics Linux Command
 
+# What is Operating System ?
+Operating system is an interface between user and the computer hardware. The hardware of the
+computer cannot understand the human readable language as it works on binaries i.e. 0's and 1's. Also it
+is very tough for humans to understand the binary language, in such case we need an interface which
+can translate human language to hardware and vice-versa for effective communication.
+
 ## Founder of Linux:
 Linus Torvalds, a Finnish computer expert, is famous for starting the creation of Linux and the git system for keeping track of changes in software.
 
@@ -13,6 +19,27 @@ He made the starting code for Linux 0.01 and shared it on the Minix group on Sep
 Because people liked it so much, they cheered him on to make more. 
 Linus listened, made new code, and on October 5, 1991, he launched the first "official" Linux, version 0.02.
 
+# Types of Operating System:
+ Single User - Single Tasking Operating System
+ Single User - Multitasking Operating System
+ Multi User - Multitasking Operating System
+ 
+## Single User - Single Tasking Operating System
+In this type of operating system only one user can log into system and can perform only one task at a
+time.
+E.g.: MS-DOS
+
+## Single User - Multi tasking operating System
+This type of O/S supports only one user to log into the system but a user can perform multiple tasks at a
+time, browsing internet while playing songs etc.
+E.g.: Windows -98,Xp,vista,Seven etc.
+
+## Multi User - Multi Tasking Operating System
+These type of O/S provides multiple users to log into the system and also each user can perform various
+tasks at a time. In a broader term multiple users can logged in to system and share the resources of the
+system at the same time.
+E.g.: UNIX, LINUX etc.
+
 # What is Linux?:
 
 Linux is a Kernel not OS (Operating System).
@@ -20,11 +47,25 @@ Linux is a Kernel not OS (Operating System).
 Linus distribution is the Linux kernel and a collection of software that together, create on Operating System.
 
 # Why Linux is so important ?:
-
-![image](https://github.com/sunspac/introduction/assets/154580560/9813b915-048e-478a-9423-e916367452a8)
+1. Fresh implementation of UNIX APIs
+2. Open source development model
+3. Supports wide variety of hardware
+4. Supports many networking protocols and Configurations
+5. Fully supported
+   
+1) Linux is a UNIX like OS: Linux is a similar to UNIX as the various UNIX versions are to each
+other.
+2) Multi-User and Multi-tasking: Linux is a multi-user and multi-tasking operating system.
+That means that more than one person can be logged on to the same Linux computer at
+the same time. The same user could even be logged into their account from two or
+more terminals at the same time; Linux is also Multi-Tasking. A user can have more than
+one program executing at the same time.
+3) Wide hardware support: Red Hat Linux support most pieces modern x86 compatible PC
+hardware.
+4) Fully Supported: Red Hat Linux is a fully supported distribution Red Hat Inc. provides
+many support programs for the smallest to the largest companies.
 
 # Advantage of Linux:
-
 Open Source.
 Secure.
 Simplified update for all Install Software.
