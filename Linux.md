@@ -140,30 +140,3 @@ The "Program Files (x86)" folder is where 32-bit applications are installed on a
 /opt: /opt is for optional applications, often from third-party vendors.
 
 /var: /var stores variable files, like log files in /var/log and database files in /var/lib.
-
-Basic Linux Command:
-Listing commands ls option_flag arguments --> list the sub directories and files avaiable in the present directory
-
-Examples:
-
-ls -l--> list the files and directories in long list format with extra information.
-
-ls -a --> list all including hidden files and directory.
-
-ls *.sh --> list all the files having .sh extension.
-
-ls -i --> list the files and directories with index numbers inodes.
-
-ls -d */ --> list only directories.(we can also specify a pattern).
-
-Directoy commands pwd --> print work directory. Gives the present working directory.
-
-cd path_to_directory --> change directory to the provided path.
-
-cd ~ or just cd --> change directory to the home directory.
-
-cd - --> Go to the last working directory.
-
-cd .. --> change directory to one step back.
-
-cd ../.. --> Change directory to 2 levels back.
