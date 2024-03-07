@@ -6,19 +6,6 @@ computer cannot understand the human readable language as it works on binaries i
 is very tough for humans to understand the binary language, in such case we need an interface which
 can translate human language to hardware and vice-versa for effective communication.
 
-## Founder of Linux:
-Linus Torvalds, a Finnish computer expert, is famous for starting the creation of Linux and the git system for keeping track of changes in software.
-
-# History of Linux:
-
-Linux is like a cool cousin of Unix, and it's a free computer system made by Linus Torvalds in September 1991.
-
-Back in 1991, Linus was a student at the University of Helsinki in Finland, not the USA.
-
-He made the starting code for Linux 0.01 and shared it on the Minix group on September 17, 1991. 
-Because people liked it so much, they cheered him on to make more. 
-Linus listened, made new code, and on October 5, 1991, he launched the first "official" Linux, version 0.02.
-
 # Types of Operating System:
  Single User - Single Tasking Operating System
  Single User - Multitasking Operating System
@@ -39,6 +26,18 @@ These type of O/S provides multiple users to log into the system and also each u
 tasks at a time. In a broader term multiple users can logged in to system and share the resources of the
 system at the same time.
 E.g.: UNIX, LINUX etc.
+## Founder of Linux:
+Linus Torvalds, a Finnish computer expert, is famous for starting the creation of Linux and the git system for keeping track of changes in software.
+
+# History of Linux:
+
+Linux is like a cool cousin of Unix, and it's a free computer system made by Linus Torvalds in September 1991.
+
+Back in 1991, Linus was a student at the University of Helsinki in Finland, not the USA.
+
+He made the starting code for Linux 0.01 and shared it on the Minix group on September 17, 1991. 
+Because people liked it so much, they cheered him on to make more. 
+Linus listened, made new code, and on October 5, 1991, he launched the first "official" Linux, version 0.02.
 
 # What is Linux?:
 
