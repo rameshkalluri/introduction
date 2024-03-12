@@ -1,3 +1,7 @@
+#### wsl installation:
+https://learn.microsoft.com/en-us/windows/wsl/install-manual
+https://learn.microsoft.com/en-us/windows/wsl/install
+
 # BASIC COMMANDS
 ## Creating, Removing, Copying, Moving files & Directories
 ### Creating a file in Linux
