@@ -56,3 +56,28 @@ r             Open the file                          'ls' the contents of dir
 w             Write, edit, append, delete file       Add/Del/Rename contents of dir
 
 x             To run a command/shell script          To enter into dir using 'cd'
+
+
+Filetype+permission, links, owner, group name of owner, size in bytes, date of modification,
+file name
+
+## Permission can be set on any file/dir by Absolute methods (numbers)
+In Absolute method we use numbers instead of using symbols i.e.
+
+Read=4
+
+Write=2
+
+Execute=1
+
+## The default permission for file is 644
+## The default permission for dir is 755
+
+#### Assigning different permissions to the file (user=rwx, group=rw and others=r)
+#chmod 764 ktfile (where 7 means rwx i.e. 4+2+1, rw=6 i.e. 4 indicates read 2 indicates write and 1 indicates x)
+
+#### Removing all permissions from others
+#chmod 770 ktfile (where 0 indicates no permissions)
+
+#### Assigning full permission to the file i.e. rwx to all
+#chmod 777 ktfile
