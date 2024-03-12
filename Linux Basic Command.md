@@ -2,9 +2,9 @@
 ## Creating, Removing, Copying, Moving files & Directories
 ### Creating a file in Linux
 #### Using cat command:
-==> cat (Concatenate) command is used to create a file and to display and modify the contents
+cat (Concatenate) command is used to create a file and to display and modify the contents
 of a file.To create a file
-==> cat > filename (say ktfile)
+cat > filename (say ktfile)
 Hello World
 Ctrl+d (To save the file)
 
