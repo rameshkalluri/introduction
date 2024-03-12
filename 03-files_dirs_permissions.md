@@ -35,16 +35,22 @@ not be a or e.
 
 # File Permissions:
 ## Permissions are applied on three levels:-
- Owner or User level
- Group level
- Others level
+Owner or User level
+
+Group level
+
+Others level
+
 ## Access modes are of three types:-
- r read only
- w write/edit/delete/append
- x execute/run a command
+r read only
+w write/edit/delete/append
+x execute/run a command
 
 ## Access modes are different on file and directory:
 Permissions      Files                                     Directory
+
 r             Open the file                          'ls' the contents of dir
+
 w             Write, edit, append, delete file       Add/Del/Rename contents of dir
+
 x             To run a command/shell script          To enter into dir using 'cd'
