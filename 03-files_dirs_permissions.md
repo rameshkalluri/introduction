@@ -43,7 +43,9 @@ Others level
 
 ## Access modes are of three types:-
 r read only
+
 w write/edit/delete/append
+
 x execute/run a command
 
 ## Access modes are different on file and directory:
