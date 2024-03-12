@@ -1,28 +1,28 @@
 # Listing files and directories:
 
-#ls list the file names
+#ls     ==> list the file names
 
-#ls -l long listing of the file
+#ls -l  ==> long listing of the file
 
-#ls –l filename to see the permissions of a particular file
+#ls –l  ==> filename to see the permissions of a particular file
 
-#ls -al shows the files in ascending order of modification.
+#ls -al ==> shows the files in ascending order of modification.
 
-#ls p* All the files start with p.
+#ls p*  ==> All the files start with p.
 
-#ls ?ample Files with any first character and has ample
+#ls ?ample ==> Files with any first character and has ample
 
-#ls -ld l* Directory listing only
+#ls -ld l* ==> Directory listing only
 
-#ls –ld directory name to see the permissions of a particular directory
+#ls –ld    ==> directory name to see the permissions of a particular directory
 
-#ls [ae]* First character of the filename must be a or e.
+#ls [ae]*  ==> First character of the filename must be a or e.
 
-#ls [!ae]* ! Symbol complements the condition that follows. The characters must
+#ls [!ae]* ==> ! Symbol complements the condition that follows. The characters must
 
 not be a or e.
 
-#ls [a-m][c-z][4-9] list all the files in specific range
+#ls [a-m][c-z][4-9]  ==> list all the files in specific range
 
 
 # Types of Files:
