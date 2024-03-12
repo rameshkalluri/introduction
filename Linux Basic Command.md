@@ -55,5 +55,7 @@ mv ktdir kerneldir
 #### Removing a directory with files or directories inside
 A dir which is having some contents inside it cannot be removed by rmdir command. There are
 two ways to delete the directory with contents.
+
 i. Remove the contents inside the directory and then run rmdir command
+
 ii. Run #rm –rf dirname (where r stands for recursive and f stands for forcefully.
