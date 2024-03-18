@@ -86,7 +86,7 @@ To remove the duplicate entries from the output
 
 The cut command is used to pick the given expression (in columns) and display the output.
 
-# cut -d -f filename (where d stands for delimiter ex. : , “ “ etc and f stands for field)
+cut -d -f filename (where d stands for delimiter ex. : , “ “ etc and f stands for field)
 
 To delimit spaces and print the field
 
