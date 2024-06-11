@@ -72,6 +72,17 @@ Secure.
 Simplified update for all Install Software.
 Light weight.
 
+
+Linux Flavours:
+1. Centos
+2. Ubuntu
+3. fedora
+4. amazon linux
+5. redhat
+6. kali linux
+7. alpine
+8. suse
+
 # Architecture of Window and Linux:
 ## Window:
 Imagine a well-organized skyscraper.
