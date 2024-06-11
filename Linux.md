@@ -76,12 +76,13 @@ Light weight.
 Linux Flavours:
 1. Centos
 2. Ubuntu
-3. fedora
-4. amazon linux
-5. redhat
-6. kali linux
-7. alpine
-8. suse
+3. debian
+4. fedora
+5. amazon linux
+6. redhat
+7. kali linux
+8. alpine
+9. suse
 
 # Architecture of Window and Linux:
 ## Window:
