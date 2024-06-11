@@ -8,7 +8,9 @@ can translate human language to hardware and vice-versa for effective communicat
 
 # Types of Operating System:
  Single User - Single Tasking Operating System
+ 
  Single User - Multitasking Operating System
+ 
  Multi User - Multitasking Operating System
  
 ## Single User - Single Tasking Operating System
