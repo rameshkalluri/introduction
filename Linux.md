@@ -154,3 +154,8 @@ The "Program Files (x86)" folder is where 32-bit applications are installed on a
 /opt: /opt is for optional applications, often from third-party vendors.
 
 /var: /var stores variable files, like log files in /var/log and database files in /var/lib.
+
+
+
+choco installation on windows:
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
