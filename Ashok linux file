@@ -1,0 +1,85 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ashok@NARAHARI:~$ pwd
+/home/ashok
+ashok@NARAHARI:~$ cd ..
+ashok@NARAHARI:/home$ pwd
+/home
+ashok@NARAHARI:/home$ ls
+ashok
+ashok@NARAHARI:/home$ cd
+ashok@NARAHARI:~$ pwd
+/home/ashok
+ashok@NARAHARI:~$ touch ashok
+ashok@NARAHARI:~$ cd root
+-bash: cd: root: No such file or directory
+ashok@NARAHARI:~$ mkdir sai
+ashok@NARAHARI:~$ ls
+ashok  ashok.txt  lucky.txt  sai  sai.txt  saifile.txt
+ashok@NARAHARI:~$ rmdir sai
+ashok@NARAHARI:~$ touch ashok.txt
+ashok@NARAHARI:~$ touch sai.txt
+ashok@NARAHARI:~$ touch kiran.txt
+ashok@NARAHARI:~$ mkdir sai
+ashok@NARAHARI:~$ ls
+ashok  ashok.txt  kiran.txt  lucky.txt  sai  sai.txt  saifile.txt
+ashok@NARAHARI:~$ pwd
+/home/ashok
+ashok@NARAHARI:~$ cd ..
+ashok@NARAHARI:/home$ ls
+ashok
+ashok@NARAHARI:/home$ rm ashok.txt
+rm: cannot remove 'ashok.txt': No such file or directory
+ashok@NARAHARI:/home$ ls
+ashok
+ashok@NARAHARI:/home$ rm sai.txt
+rm: cannot remove 'sai.txt': No such file or directory
+ashok@NARAHARI:/home$ rm -rf sai
+ashok@NARAHARI:/home$ ls
+ashok
+ashok@NARAHARI:/home$ rm kiran.txt
+rm: cannot remove 'kiran.txt': No such file or directory
+ashok@NARAHARI:/home$ pwd
+/home
+ashok@NARAHARI:/home$ ls
+ashok
+ashok@NARAHARI:/home$ cd
+ashok@NARAHARI:~$ pwd
+/home/ashok
+ashok@NARAHARI:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+none            237G  207G   31G  88% /usr/lib/wsl/drivers
+none            1.9G     0  1.9G   0% /usr/lib/modules
+none            1.9G     0  1.9G   0% /usr/lib/modules/5.15.146.1-microsoft-standard-WSL2
+/dev/sdc       1007G  1.4G  955G   1% /
+none            1.9G   80K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  1.9M  1.9G   1% /init
+none            1.9G  824K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             237G  207G   31G  88% /mnt/c
+D:\             239G  102M  239G   1% /mnt/d
+G:\              15G  183M   15G   2% /mnt/g
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         74M   74M     0 100% /snap/core22/864
+snapfuse         75M   75M     0 100% /snap/core22/1380
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         41M   41M     0 100% /snap/snapd/20290
+snapfuse         39M   39M     0 100% /snap/snapd/21759
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+ashok@NARAHARI:~$ du -hs
+36K     .
+ashok@NARAHARI:~$ du -hs sai
+4.0K    sai
+ashok@NARAHARI:~$ free -m
+               total        used        free      shared  buff/cache   available
+Mem:            3794         485        2971           2         337        3096
+Swap:           1024           0        1024
+ashok@NARAHARI:~$
