@@ -1,0 +1,190 @@
+Last login: Fri Jun 14 00:18:22 on ttys000
+himaram@Vijays-MacBook-Pro ~ % ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % mkdir bahubali.txt kgf.txt rrr.txt
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % ls
+Desktop		Library		Pictures	kgf.txt
+Documents	Movies		Public		rrr.txt
+Downloads	Music		bahubali.txt
+himaram@Vijays-MacBook-Pro ~ % cd bahubali.txt 
+himaram@Vijays-MacBook-Pro bahubali.txt % pwd
+/Users/himaram/bahubali.txt
+himaram@Vijays-MacBook-Pro bahubali.txt % touch devasena.py bhallaladeva.py  
+himaram@Vijays-MacBook-Pro bahubali.txt % touch kattappa.py sivagami.py
+himaram@Vijays-MacBook-Pro bahubali.txt % pwd
+/Users/himaram/bahubali.txt
+himaram@Vijays-MacBook-Pro bahubali.txt % cd ..
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % ls
+Desktop		Library		Pictures	kgf.txt
+Documents	Movies		Public		rrr.txt
+Downloads	Music		bahubali.txt
+himaram@Vijays-MacBook-Pro ~ % cat bahubali.txt 
+cat: bahubali.txt: Is a directory
+himaram@Vijays-MacBook-Pro ~ % cd bahubali.txt 
+himaram@Vijays-MacBook-Pro bahubali.txt % cd ..
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % cd bahubali.txt 
+himaram@Vijays-MacBook-Pro bahubali.txt % ls
+bhallaladeva.py	devasena.py	kattappa.py	sivagami.py
+himaram@Vijays-MacBook-Pro bahubali.txt % vim bhallaladeva.py 
+himaram@Vijays-MacBook-Pro bahubali.txt % vim devasena.py 
+himaram@Vijays-MacBook-Pro bahubali.txt % pwd
+/Users/himaram/bahubali.txt
+himaram@Vijays-MacBook-Pro bahubali.txt % cd ..
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % cat bahubali.txt 
+cat: bahubali.txt: Is a directory
+himaram@Vijays-MacBook-Pro ~ % cd bahubali.txt 
+himaram@Vijays-MacBook-Pro bahubali.txt % cat devasena.py 
+Devasena is the lead female character of the Baahubali franchise
+himaram@Vijays-MacBook-Pro bahubali.txt % cat bhallaladeva.py 
+Bhallaladeva is a fictional character and recurring antagonist of the Baahubali franchise, and the main antagonist of the movie series.
+himaram@Vijays-MacBook-Pro bahubali.txt % cat kattappa.py 
+himaram@Vijays-MacBook-Pro bahubali.txt % cat sivagami.py 
+himaram@Vijays-MacBook-Pro bahubali.txt % cd ../..
+himaram@Vijays-MacBook-Pro /Users % pwd
+/Users
+himaram@Vijays-MacBook-Pro /Users % cd
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % touch ram.py bheem.py
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % vim ram.py 
+himaram@Vijays-MacBook-Pro ~ % cp ram.py rrr.txt 
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % cd rrr.txt 
+himaram@Vijays-MacBook-Pro rrr.txt % ls
+ram.py
+himaram@Vijays-MacBook-Pro rrr.txt % cat ram.py 
+Charan plays Rama Raju in the movie
+himaram@Vijays-MacBook-Pro rrr.txt % pwd
+/Users/himaram/rrr.txt
+himaram@Vijays-MacBook-Pro rrr.txt % cd ..
+himaram@Vijays-MacBook-Pro ~ % mv bheem.py rrr.txt     
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % cd rrr.txt 
+himaram@Vijays-MacBook-Pro rrr.txt % ls
+bheem.py	ram.py
+himaram@Vijays-MacBook-Pro rrr.txt % cat bheem.py 
+himaram@Vijays-MacBook-Pro rrr.txt % mv bheem.py komarambheem.py
+himaram@Vijays-MacBook-Pro rrr.txt % ls
+komarambheem.py	ram.py
+himaram@Vijays-MacBook-Pro rrr.txt % cd ..
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % ls
+Desktop		Library		Pictures	kgf.txt
+Documents	Movies		Public		ram.py
+Downloads	Music		bahubali.txt	rrr.txt
+himaram@Vijays-MacBook-Pro ~ % rmdir kgf.txt 
+himaram@Vijays-MacBook-Pro ~ % ls
+Desktop		Library		Pictures	ram.py
+Documents	Movies		Public		rrr.txt
+Downloads	Music		bahubali.txt
+himaram@Vijays-MacBook-Pro ~ % pwd
+/Users/himaram
+himaram@Vijays-MacBook-Pro ~ % ls -l
+total 8
+drwx------+  4 himaram  staff   128 Jun 14 00:19 Desktop
+drwx------+  3 himaram  staff    96 Jun 14 00:13 Documents
+drwx------+  3 himaram  staff    96 Jun 14 00:13 Downloads
+drwx------@ 71 himaram  staff  2272 Jun 14 01:16 Library
+drwx------   4 himaram  staff   128 Jun 14 00:15 Movies
+drwx------+  3 himaram  staff    96 Jun 14 00:13 Music
+drwx------+  3 himaram  staff    96 Jun 14 00:13 Pictures
+drwxr-xr-x+  4 himaram  staff   128 Jun 14 00:13 Public
+drwxr-xr-x   6 himaram  staff   192 Jun 14 01:02 bahubali.txt
+-rw-r--r--   1 himaram  staff    36 Jun 14 01:17 ram.py
+drwxr-xr-x   4 himaram  staff   128 Jun 14 01:22 rrr.txt
+himaram@Vijays-MacBook-Pro ~ % ls -a
+.			.zsh_history		Music
+..			.zsh_sessions		Pictures
+.CFUserTextEncoding	Desktop			Public
+.DS_Store		Documents		bahubali.txt
+.Trash			Downloads		ram.py
+.anydesk		Library			rrr.txt
+.viminfo		Movies
+himaram@Vijays-MacBook-Pro ~ % df -h
+Filesystem       Size   Used  Avail Capacity iused     ifree %iused  Mounted on
+/dev/disk3s1s1  228Gi  8.3Gi   30Gi    22%  349475 316243720    0%   /
+devfs           199Ki  199Ki    0Bi   100%     690         0  100%   /dev
+/dev/disk3s6    228Gi   20Ki   30Gi     1%       0 316243720    0%   /System/Volumes/VM
+/dev/disk3s2    228Gi  5.0Gi   30Gi    15%    1194 316243720    0%   /System/Volumes/Preboot
+/dev/disk3s4    228Gi   33Mi   30Gi     1%      43 316243720    0%   /System/Volumes/Update
+/dev/disk1s2    500Mi  6.0Mi  479Mi     2%       1   4909680    0%   /System/Volumes/xarts
+/dev/disk1s1    500Mi  6.2Mi  479Mi     2%      31   4909680    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3    500Mi  3.6Mi  479Mi     1%      53   4909680    0%   /System/Volumes/Hardware
+/dev/disk3s5    228Gi  183Gi   30Gi    86%  482189 316243720    0%   /System/Volumes/Data
+map auto_home     0Bi    0Bi    0Bi   100%       0         0  100%   /System/Volumes/Data/home
+himaram@Vijays-MacBook-Pro ~ % df --help
+df: illegal option -- -
+usage: df [-b | -H | -h | -k | -m | -g | -P] [-ailn] [-T type] [-t] [filesystem ...]
+himaram@Vijays-MacBook-Pro ~ % du -hs
+du: ./Library/Application Support/CallHistoryTransactions: Operation not permitted
+du: ./Library/Application Support/com.apple.sharedfilelist: Operation not permitted
+du: ./Library/Application Support/Knowledge: Operation not permitted
+du: ./Library/Application Support/com.apple.TCC: Operation not permitted
+du: ./Library/Application Support/FileProvider: Operation not permitted
+du: ./Library/Application Support/AddressBook: Operation not permitted
+du: ./Library/Application Support/FaceTime: Operation not permitted
+du: ./Library/Application Support/CallHistoryDB: Operation not permitted
+du: ./Library/Assistant/SiriVocabulary: Operation not permitted
+du: ./Library/Autosave Information: Operation not permitted
+du: ./Library/IdentityServices: Operation not permitted
+du: ./Library/Messages: Operation not permitted
+du: ./Library/HomeKit: Operation not permitted
+du: ./Library/Sharing: Operation not permitted
+du: ./Library/com.apple.aiml.instrumentation: Operation not permitted
+du: ./Library/Mail: Operation not permitted
+du: ./Library/Trial: Operation not permitted
+du: ./Library/AppleMediaServices: Operation not permitted
+du: ./Library/Accounts: Operation not permitted
+du: ./Library/Safari: Operation not permitted
+du: ./Library/Biome: Operation not permitted
+du: ./Library/IntelligencePlatform: Operation not permitted
+du: ./Library/Suggestions: Operation not permitted
+du: ./Library/Weather: Operation not permitted
+du: ./Library/Group Containers/group.com.apple.secure-control-center-preferences: Operation not permitted
+du: ./Library/Group Containers/group.com.apple.notes: Operation not permitted
+du: ./Library/Containers/com.apple.Maps/Data/Maps: Operation not permitted
+du: ./Library/Containers/com.apple.Safari: Operation not permitted
+du: ./Library/Containers/com.apple.CloudDocs.MobileDocumentsFileProvider: Operation not permitted
+du: ./Library/Containers/com.apple.mail: Operation not permitted
+du: ./Library/Containers/com.apple.Notes: Operation not permitted
+du: ./Library/Containers/com.apple.stocks: Operation not permitted
+du: ./Library/PersonalizationPortrait: Operation not permitted
+du: ./Library/Metadata/CoreSpotlight: Operation not permitted
+du: ./Library/CoreFollowUp: Operation not permitted
+du: ./Library/DoNotDisturb: Operation not permitted
+du: ./Library/Caches/com.apple.HomeKit: Operation not permitted
+du: ./Library/Caches/CloudKit: Operation not permitted
+du: ./Library/Caches/com.apple.homed: Operation not permitted
+du: ./Library/Caches/com.apple.ap.adprivacyd: Operation not permitted
+du: ./.Trash: Operation not permitted
+412M	.
+himaram@Vijays-MacBook-Pro ~ % du -hs bahubali.txt 
+8.0K	bahubali.txt
+himaram@Vijays-MacBook-Pro ~ % du -hs rrr.txt 
+4.0K	rrr.txt
+himaram@Vijays-MacBook-Pro ~ % free -m
+zsh: command not found: free
+himaram@Vijays-MacBook-Pro ~ % free -m bahubali.txt 
+zsh: command not found: free
+himaram@Vijays-MacBook-Pro ~ % free -g
+zsh: command not found: free
+himaram@Vijays-MacBook-Pro ~ % free -g bahubali.txt 
+zsh: command not found: free
+himaram@Vijays-MacBook-Pro ~ % 
+
+
