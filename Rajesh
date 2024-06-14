@@ -147,18 +147,95 @@ aa.txt  snap
    VIM/VI :- visual interface is used to edit the content of a file
 
 
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap
+root@DESKTOP-4CMAMAA:~# cat aa.txt
+root@DESKTOP-4CMAMAA:~# vim aa.txt
+root@DESKTOP-4CMAMAA:~# cat aa.txt
+data
+root@DESKTOP-4CMAMAA:~#
+
+
 9. How to view the content of any file ?
 
    CAT :- used to view the content of a file
 
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap
+root@DESKTOP-4CMAMAA:~# cat aa.txt
+root@DESKTOP-4CMAMAA:~# vim aa.txt
+root@DESKTOP-4CMAMAA:~# cat aa.txt
+data
+root@DESKTOP-4CMAMAA:~#
+
+
 10. how to copy a file or directory ?
 
-   CP :- is used to copy a file or directory
-   cp -r :- "-r" shall be used if sorce file is not empty
+   CP :- is used to copy a file to a directory
+
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap  test1  test2
+root@DESKTOP-4CMAMAA:~# cd test1
+root@DESKTOP-4CMAMAA:~/test1# ls
+root@DESKTOP-4CMAMAA:~/test1# cd
+root@DESKTOP-4CMAMAA:~# cp aa.txt test1
+root@DESKTOP-4CMAMAA:~# cd test1
+root@DESKTOP-4CMAMAA:~/test1# ls
+aa.txt
+
+
+   cp -r :- "-r" shall be used if you want to copy a directory to another directory
+
+root@DESKTOP-4CMAMAA:~/test1# cd
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap  test1  test2
+root@DESKTOP-4CMAMAA:~# cd test2
+root@DESKTOP-4CMAMAA:~/test2# ls
+root@DESKTOP-4CMAMAA:~/test2# cd
+root@DESKTOP-4CMAMAA:~# cp -r test1 test2
+root@DESKTOP-4CMAMAA:~# cd test2
+root@DESKTOP-4CMAMAA:~/test2# ls
+test1
+root@DESKTOP-4CMAMAA:~/test2#
+
 
 11. How to move a file or directory ?
 
    mv :- is used to move a file or directory and it can also be used for rename a directory
+
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap  test2
+root@DESKTOP-4CMAMAA:~# mkdir test1
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap  test1  test2
+root@DESKTOP-4CMAMAA:~# mv aa.txt test1
+root@DESKTOP-4CMAMAA:~# ls
+snap  test1  test2
+root@DESKTOP-4CMAMAA:~# cd test1
+root@DESKTOP-4CMAMAA:~/test1# ls
+aa.txt
+root@DESKTOP-4CMAMAA:~/test1# mv test1 test2
+mv: cannot stat 'test1': No such file or directory
+root@DESKTOP-4CMAMAA:~/test1# cd
+root@DESKTOP-4CMAMAA:~# mv test1 test2
+root@DESKTOP-4CMAMAA:~# ls
+snap  test2
+root@DESKTOP-4CMAMAA:~# cd test2
+root@DESKTOP-4CMAMAA:~/test2# ls
+test1
+root@DESKTOP-4CMAMAA:~/test2#
+
+****Rename of directory*********
+
+  mv folder/ name
+
+root@DESKTOP-4CMAMAA:~# ls
+snap  test2
+root@DESKTOP-4CMAMAA:~# mv test2/ Test2
+root@DESKTOP-4CMAMAA:~# ls
+Test2  snap
+root@DESKTOP-4CMAMAA:~#
+
 
 12. How to check system memory details ?
 
