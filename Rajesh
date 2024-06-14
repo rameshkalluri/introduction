@@ -1,3 +1,13 @@
-sudo -i :- this command is used to switch to Root or admin user
+sudo -i :- this command is used to switch to Root user
 
-# Date :- 13/06/2024
+touch  test.txt :- this command is used to create empty files
+
+   root@DESKTOP-4CMAMAA:~# ls
+   snap
+root@DESKTOP-4CMAMAA:~# touch test.txt
+root@DESKTOP-4CMAMAA:~# ls
+snap  test.txt
+
+
+
+
