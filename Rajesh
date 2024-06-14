@@ -1,13 +1,123 @@
-sudo -i :- this command is used to switch to Root user
+1. How to switch from login user to root user
 
-touch  test.txt :- this command is used to create empty files
-ls :- lists all the files and directories in a directory
+    sudo -i
 
-root@DESKTOP-4CMAMAA:~# ls
-snap
-root@DESKTOP-4CMAMAA:~# touch test.txt
-root@DESKTOP-4CMAMAA:~# ls
-snap  test.txt
+2. what is cd
+
+    change directory, this command is used to switch to different directories
+
+3. what is the difference between cd and cd/?
+
+   cd / is used to navigate to root directory 
+   cd or "cd ~" is used to navigate to home directory
+   
+
+4. What's the difference between the root directory and the home directory?
+
+   The root directory is the top-most directory in the file system hierarchy
+   while the home directory is specific to a user,You might think of the root directory as the trunk of a tree
+   and the home directory as one of the branches dedicated to you
+
+5. what are other directory commands?
+
+   pwd: The pwd command will allow you to know in which directory you're located
+   ls: The ls command will show you ('list') the files in your current directory
+   ls~ :will show you the files that are in your home directory.
+   ls -l : will show the list of files will all details in current directory.
+   ls -a : will show the list of all files including hidden files in current directory.
+   cd.. :will navigate you to parent directory of current directory.
+
+6. How to create empty file and directory ?
+
+   touch :- touch command is used to create an empty file
+   mkdir : will allow you to create directories. 
+    Example: "mkdir music" will create a directory called "music".
+   
+
+7. how to remove a file and directory  ?
+
+   rm :  Use this command to remove or delete a file in your directory
+   rmdir: The rmdir command will delete an empty directory. 
+          Example: "mkdir rk" will create a directory called "rk".
+   rm -rf : is used to delete a directory and all of its contents recursively.
+
+8. how to edit a file ?
+
+   VIM/VI :- visual interface is used to edit the content of a file
+
+9. How to view the content of any file ?
+
+   CAT :- used to view the content of a file
+
+10. how to copy a file or directory ?
+
+   CP :- is used to copy a file or directory
+   cp -r :- "-r" shall be used if sorce file is not empty
+
+11. How to move a file or directory ?
+
+   mv :- is used to move a file or directory and it can also be used for rename a directory
+
+12. How to check system memory details ?
+
+   df -h :- gives the disk space usage of the file system
+   du -hs file :- gives the disk space usage by the specific file
+   free -m :- gives the ram/swap memory details in megabytes
+   free -g :- gives the ram/swap memory details in gegabytes
+
+13. How to search an expression in a file ?
+
+    grep :- Global Regular expression print,it is used to pick the required expression from the file and print the output  
+
+       grep value/folder/file.
+
+     "-i" will be used when there is requirement to not consider the case sensitive
+
+       grep -i value/folder/file
+
+    "-nA2" this will print the after two lines of values also
+
+       grep -nA2 value/folder/file
+     
+     "-nB2" this will print the before two lines of values also
+
+       grep -nB2 value/folder/file
+
+14. what is meant by pipe command ?
+
+    The pipe command in Linux, represented by the vertical bar symbol "|".
+    It is used to connect the output of one command directly into the input of another.
+
+   
+    grep value/folder/file|tee a.text :- 
+    
+     grep will get the line containing nthe value and that output will be saved in "a.txt" file using "tee" cmd.
+
+15. what are head and tail commands?
+
+    head :- is used to print first 10 lines of content in the specified file.
+
+      head /folder/file.
+
+    head -5/folder/file :-
+
+    "-5" is used to print first 5 lines of content in a file
+
+    tail :- is used to print last 10 lines of content in the specified file
+
+     tail /folder/file.
+
+    tail -5/folder/file :-
+
+    "-5" is used to print last 5 lines of content in a file
+
+*****
+     how to print the 14th line of a file ?
+
+  head -14/folder/file | tail -1
+
+    first head command will print the first 14 lines of content and that output is given as input to tail command .
+    "tail" will print the last line.
 
 
 
