@@ -2,6 +2,9 @@
 
     sudo -i
 
+rajesh@DESKTOP-4CMAMAA:~$ sudo -i
+root@DESKTOP-4CMAMAA:~#
+
 2. what is cd
 
     change directory, this command is used to switch to different directories
@@ -9,7 +12,18 @@
 3. what is the difference between cd and cd/?
 
    cd / is used to navigate to root directory 
+
+root@DESKTOP-4CMAMAA:~# cd /
+root@DESKTOP-4CMAMAA:/# ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+
+
    cd or "cd ~" is used to navigate to home directory
+
+root@DESKTOP-4CMAMAA:/# cd
+root@DESKTOP-4CMAMAA:~# ls
+snap  test.txt
    
 
 4. What's the difference between the root directory and the home directory?
