@@ -1,12 +1,19 @@
 sudo -i :- this command is used to switch to Root user
 
 touch  test.txt :- this command is used to create empty files
+ls :- lists all the files and directories in a directory
 
-   root@DESKTOP-4CMAMAA:~# ls
-   snap
+root@DESKTOP-4CMAMAA:~# ls
+snap
 root@DESKTOP-4CMAMAA:~# touch test.txt
 root@DESKTOP-4CMAMAA:~# ls
 snap  test.txt
+
+
+
+
+
+
 
 
 
