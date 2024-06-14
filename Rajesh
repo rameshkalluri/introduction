@@ -35,29 +35,117 @@ snap  test.txt
 5. what are other directory commands?
 
    pwd: The pwd command will allow you to know in which directory you're located
+
+root@DESKTOP-4CMAMAA:~# pwd
+/root
+
+
    ls: The ls command will show you ('list') the files in your current directory
+
+root@DESKTOP-4CMAMAA:~# pwd
+/root
+root@DESKTOP-4CMAMAA:~# ls
+snap  test.txt
+
    ls~ :will show you the files that are in your home directory.
+
+root@DESKTOP-4CMAMAA:/# cd /
+root@DESKTOP-4CMAMAA:/# ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+root@DESKTOP-4CMAMAA:/# ls ~
+snap  test.txt
+
    ls -l : will show the list of files will all details in current directory.
+
+root@DESKTOP-4CMAMAA:/# cd
+root@DESKTOP-4CMAMAA:~# ls
+snap  test.txt
+root@DESKTOP-4CMAMAA:~# ls -l
+total 4
+drwx------ 3 root root 4096 Jun 14 10:55 snap
+-rw-r--r-- 1 root root    0 Jun 14 11:51 test.txt
+
    ls -a : will show the list of all files including hidden files in current directory.
+
+root@DESKTOP-4CMAMAA:~# ls -a
+.  ..  .bash_history  .bashrc  .cache  .motd_shown  .profile  .viminfo  snap  test.txt
+
    cd.. :will navigate you to parent directory of current directory.
+
+root@DESKTOP-4CMAMAA:/# cd /
+root@DESKTOP-4CMAMAA:/# ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+root@DESKTOP-4CMAMAA:/# cd home
+root@DESKTOP-4CMAMAA:/home# ls
+rajesh
+root@DESKTOP-4CMAMAA:/home# cd rajesh
+root@DESKTOP-4CMAMAA:/home/rajesh# cd ..
+root@DESKTOP-4CMAMAA:/home# cd ..
+
 
 6. How to create empty file and directory ?
 
    touch :- touch command is used to create an empty file
+
+root@DESKTOP-4CMAMAA:/# cd
+root@DESKTOP-4CMAMAA:~# ls
+snap  test.txt
+root@DESKTOP-4CMAMAA:~# touch aa.txt
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap  test.txt
+
+
    mkdir : will allow you to create directories. 
-    Example: "mkdir music" will create a directory called "music".
+
+root@DESKTOP-4CMAMAA:~# mkdir career
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  career  snap  test.txt
    
 
 7. how to remove a file and directory  ?
 
    rm :  Use this command to remove or delete a file in your directory
+
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  career  snap  test.txt
+root@DESKTOP-4CMAMAA:~# rm test.txt
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  career  snap
+
    rmdir: The rmdir command will delete an empty directory. 
           Example: "mkdir rk" will create a directory called "rk".
+
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  career  snap
+root@DESKTOP-4CMAMAA:~# rmdir career
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap
+
    rm -rf : is used to delete a directory and all of its contents recursively.
+
+root@DESKTOP-4CMAMAA:~# mkdir bridge
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  bridge  snap
+root@DESKTOP-4CMAMAA:~# cd bridge
+root@DESKTOP-4CMAMAA:~/bridge# touch dd.txt
+root@DESKTOP-4CMAMAA:~/bridge# ls
+dd.txt
+root@DESKTOP-4CMAMAA:~/bridge# cd ..
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  bridge  snap
+root@DESKTOP-4CMAMAA:~# rmdir bridge
+rmdir: failed to remove 'bridge': Directory not empty
+root@DESKTOP-4CMAMAA:~# rm -rf bridge
+root@DESKTOP-4CMAMAA:~# ls
+aa.txt  snap
+
 
 8. how to edit a file ?
 
    VIM/VI :- visual interface is used to edit the content of a file
+
 
 9. How to view the content of any file ?
 
