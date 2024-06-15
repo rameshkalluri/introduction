@@ -1,17 +1,25 @@
+
 1. How to switch from login user to root user
+
 
     sudo -i
 
+ex :
+
 rajesh@DESKTOP-4CMAMAA:~$ sudo -i
 root@DESKTOP-4CMAMAA:~#
+
 
 2. what is cd
 
     change directory, this command is used to switch to different directories
 
+
 3. what is the difference between cd and cd/?
 
    cd / is used to navigate to root directory 
+
+ex: 
 
 root@DESKTOP-4CMAMAA:~# cd /
 root@DESKTOP-4CMAMAA:/# ls
@@ -20,6 +28,8 @@ boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
 
 
    cd or "cd ~" is used to navigate to home directory
+
+ex : 
 
 root@DESKTOP-4CMAMAA:/# cd
 root@DESKTOP-4CMAMAA:~# ls
@@ -36,11 +46,13 @@ snap  test.txt
 
    pwd: The pwd command will allow you to know in which directory you're located
 
+ex : 
 root@DESKTOP-4CMAMAA:~# pwd
 /root
 
-
    ls: The ls command will show you ('list') the files in your current directory
+
+ex: 
 
 root@DESKTOP-4CMAMAA:~# pwd
 /root
@@ -49,12 +61,15 @@ snap  test.txt
 
    ls~ :will show you the files that are in your home directory.
 
+ex:
+
 root@DESKTOP-4CMAMAA:/# cd /
 root@DESKTOP-4CMAMAA:/# ls
 bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
 boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
 root@DESKTOP-4CMAMAA:/# ls ~
 snap  test.txt
+
 
    ls -l : will show the list of files will all details in current directory.
 
