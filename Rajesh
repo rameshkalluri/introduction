@@ -248,19 +248,92 @@ root@DESKTOP-4CMAMAA:~#
 
     grep :- Global Regular expression print,it is used to pick the required expression from the file and print the output  
 
-       grep value/folder/file.
+       grep value folder/file.
+
+root@DESKTOP-4CMAMAA:~# ls
+snap  test3
+root@DESKTOP-4CMAMAA:~# cat test3/gg.txt
+1
+2
+1
+3
+4
+1
+51
+root@DESKTOP-4CMAMAA:~# grep 1 test3/gg.txt
+1
+1
+1
+51
 
      "-i" will be used when there is requirement to not consider the case sensitive
 
-       grep -i value/folder/file
+       grep -i value file
+
+root@DESKTOP-4CMAMAA:~# ls
+snap  ss.txt  test3
+root@DESKTOP-4CMAMAA:~# cat ss.txt
+a
+A
+a
+A
+aA
+b
+c
+a
+root@DESKTOP-4CMAMAA:~# grep -i a ss.txt
+a
+A
+a
+A
+aA
+a
 
     "-nA2" this will print the after two lines of values also
 
-       grep -nA2 value/folder/file
+       grep -nA2 value folder/file
+
+root@DESKTOP-4CMAMAA:~# ls
+snap  ss.txt  test3
+root@DESKTOP-4CMAMAA:~# vim ss.txt
+root@DESKTOP-4CMAMAA:~# cat ss.txt
+a
+1
+2
+A
+3
+bb
+cc
+root@DESKTOP-4CMAMAA:~# grep -nA2 a ss.txt
+1:a
+2-1
+3-2
+
      
      "-nB2" this will print the before two lines of values also
 
-       grep -nB2 value/folder/file
+       grep -nB2 value folder/file
+
+root@DESKTOP-4CMAMAA:~# ls
+snap  ss.txt  test3
+root@DESKTOP-4CMAMAA:~# vim ss.txt
+root@DESKTOP-4CMAMAA:~# cat ss.txt
+a
+1
+2
+A
+3
+bb
+cc
+root@DESKTOP-4CMAMAA:~# grep -nA2 a ss.txt
+1:a
+2-1
+3-2
+root@DESKTOP-4CMAMAA:~# grep -nB2 3 ss.txt
+3-2
+4-A
+5:3
+root@DESKTOP-4CMAMAA:~#
 
 14. what is meant by pipe command ?
 
@@ -268,37 +341,97 @@ root@DESKTOP-4CMAMAA:~#
     It is used to connect the output of one command directly into the input of another.
 
    
-    grep value/folder/file|tee a.text :- 
+    grep value folder/file|tee a.text :- 
     
      grep will get the line containing the value and that output will be saved in "a.txt" file using "tee" cmd.
+    tee will perform two operations ,one is saving the output in new file and second is print the output
+
+root@DESKTOP-4CMAMAA:~# ls
+snap  ss.txt  test3
+root@DESKTOP-4CMAMAA:~# touch dd.txt
+root@DESKTOP-4CMAMAA:~# cat ss.txt
+a
+1
+2
+A
+3
+bb
+cc
+root@DESKTOP-4CMAMAA:~# cat dd.txt
+root@DESKTOP-4CMAMAA:~# grep a ss.txt|tee dd.txt
+a
 
 15. what are head and tail commands?
 
     head :- is used to print first 10 lines of content in the specified file.
 
-      head /folder/file.
+      head folder/file.
 
-    head -5/folder/file :-
+root@DESKTOP-4CMAMAA:~# ls
+dd.txt  snap  ss.txt  test3
+root@DESKTOP-4CMAMAA:~# head dd.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 
-    "-5" is used to print first 5 lines of content in a file
+    head -2 folder/file :-
+
+    "-2" is used to print first 5 lines of content in a file
+
+root@DESKTOP-4CMAMAA:~# head -2 dd.txt
+1
+2
+root@DESKTOP-4CMAMAA:~#
 
     tail :- is used to print last 10 lines of content in the specified file
 
-     tail /folder/file.
+     tail folder/file.
 
-    tail -5/folder/file :-
+  here in below example it prints only 9 numbers , but if you see below 17 we have space by considering that total becomes 10 lines 
+so , pls avoid space in data.
 
-    "-5" is used to print last 5 lines of content in a file
+root@DESKTOP-4CMAMAA:~# tail dd.txt
+9
+10
+11
+12
+13
+14
+15
+16
+17
 
-*****
+root@DESKTOP-4CMAMAA:~#
+
+    tail -2  folder/file :-
+
+    "-2" is used to print last 5 lines of content in a file
+
+root@DESKTOP-4CMAMAA:~# tail -2 dd.txt
+17
+
+root@DESKTOP-4CMAMAA:~#
+
+********************************************************************************************************************
      how to print the 14th line of a file ?
 
   head -14/folder/file | tail -1
 
-    first head command will print the first 14 lines of content and that output is given as input to tail command .
-    "tail" will print the last line.
+    here pipe command is used .First head command will send the first 14 lines of content as output and that is given as 
+   input to tail command through "|" ."tail" will print the last line.
 
+root@DESKTOP-4CMAMAA:~# head -14 dd.txt | tail -1
+14
+root@DESKTOP-4CMAMAA:~#
 
+*******************************************************************************************************************
 
 
 
