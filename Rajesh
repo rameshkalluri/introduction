@@ -73,6 +73,7 @@ snap  test.txt
 
    ls -l : will show the list of files will all details in current directory.
 
+
 root@DESKTOP-4CMAMAA:/# cd
 root@DESKTOP-4CMAMAA:~# ls
 snap  test.txt
@@ -83,10 +84,13 @@ drwx------ 3 root root 4096 Jun 14 10:55 snap
 
    ls -a : will show the list of all files including hidden files in current directory.
 
+
 root@DESKTOP-4CMAMAA:~# ls -a
 .  ..  .bash_history  .bashrc  .cache  .motd_shown  .profile  .viminfo  snap  test.txt
 
+
    cd.. :will navigate you to parent directory of current directory.
+
 
 root@DESKTOP-4CMAMAA:/# cd /
 root@DESKTOP-4CMAMAA:/# ls
