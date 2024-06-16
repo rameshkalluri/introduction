@@ -42,7 +42,7 @@ snap  test.txt
    while the home directory is specific to a user,You might think of the root directory as the trunk of a tree
    and the home directory as one of the branches dedicated to you
 
-5. what are other directory commands?
+5. what is ls command?
 
    pwd: The pwd command will allow you to know in which directory you're located
 
