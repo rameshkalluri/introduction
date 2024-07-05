@@ -1,4 +1,8 @@
-## Basic Commands
+### Installation of WSL
+
+https://learn.microsoft.com/en-us/windows/wsl/install-manual https://learn.microsoft.com/en-us/windows/wsl/install
+
+### Basic Commands
 
 1. ls ==> list files in a directory
 ![image](https://github.com/rameshkalluri/introduction/assets/22189360/935bb65e-6744-4df7-98a7-42ee1b155690)
