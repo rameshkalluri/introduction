@@ -67,9 +67,13 @@ hardware.
 many support programs for the smallest to the largest companies.
 
 # Advantage of Linux:
+
 Open Source.
+
 Secure.
+
 Simplified update for all Install Software.
+
 Light weight.
 
 
