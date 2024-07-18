@@ -28,11 +28,11 @@ vim <name of the file>
 
 vim bridge
 
-then you have to click ```i```
+then you have to click i ==> entered to INSERT MODE
 
 enter the data
 
-then click ```escape```
+then click  escape
 
 :wq
 ```
