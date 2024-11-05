@@ -120,6 +120,10 @@
 
 ![image](https://github.com/user-attachments/assets/c9d195fb-be2c-4d8b-a5b4-882478e908fb)
 
+30) to delete a non empty folder 
+
+![image](https://github.com/user-attachments/assets/45f4f118-0d17-4b57-9d2b-08aa06b69284)
+
  
 
 
