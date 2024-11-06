@@ -52,22 +52,22 @@
 
 13. chmod =>it is used to change file or directory permissions
 
-    ![alt text](chmodCommand.PNG)
-    ![alt text](chmodcommand2.PNG)
+    ![chmodCommand](https://github.com/user-attachments/assets/c4f07953-6c45-4ee4-a92d-c7bc88b3df84)
+    ![chmodcommand2](https://github.com/user-attachments/assets/a8bcc691-27c1-4996-a9e9-d904bd91dade)
 
 14. chmod -R => it recursively gives full permissions to all the files and directories.
 
-    ![alt text](chmod-rCommand.PNG)
+    ![chmod-rCommand](https://github.com/user-attachments/assets/c95cff27-8f7f-49e6-b1ab-59059dedafb6)
 
 15. chown => to change the file or directory ownership
 
-     ![alt text](chownCommand.PNG)
+    ![chownCommand](https://github.com/user-attachments/assets/3e012fa0-26d9-4556-8a43-41c6818ba9f0)
 
 16. tree => it is used to display the directory structure in a tree-like format.
 
-    ![alt text](treeCommand.PNG)
+    ![treeCommand](https://github.com/user-attachments/assets/b961b5e2-5597-422e-9277-ad33745e2a1c)
 
 17. adduser => it is used to add a new user
 
-     ![alt text](adduserCommand.PNG) 
+     ![adduserCommand](https://github.com/user-attachments/assets/7f54fa8c-94c2-43fc-8032-f0c2c9b7b3f8)
 
