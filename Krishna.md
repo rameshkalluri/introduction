@@ -48,4 +48,26 @@
 
      ![HistoryCommand](https://github.com/user-attachments/assets/762daf8d-c294-4989-9886-e29537a907e5)
 
-12. clear => it clears the screen 
+12. clear => it clears the screen
+
+13. chmod =>it is used to change file or directory permissions
+
+    ![alt text](chmodCommand.PNG)
+    ![alt text](chmodcommand2.PNG)
+
+14. chmod -R => it recursively gives full permissions to all the files and directories.
+
+    ![alt text](chmod-rCommand.PNG)
+
+15. chown => to change the file or directory ownership
+
+     ![alt text](chownCommand.PNG)
+
+16. tree => it is used to display the directory structure in a tree-like format.
+
+    ![alt text](treeCommand.PNG)
+
+17. adduser => it is used to add a new user
+
+     ![alt text](adduserCommand.PNG) 
+
