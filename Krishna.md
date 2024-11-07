@@ -71,3 +71,37 @@
 
      ![adduserCommand](https://github.com/user-attachments/assets/7f54fa8c-94c2-43fc-8032-f0c2c9b7b3f8)
 
+18. "|" (pipe command) => to print specific line from a file or directory.
+
+     wc - l => print the line number, wc => prints line number, word count, and letter count
+
+     ![pipeCommand](https://github.com/user-attachments/assets/35f27fc6-89b0-4dab-bac3-533bb88ed26c)
+
+20.   ">" => single redirection is used to create a file from the output
+       
+       ">>" => double redirections does not override the file.
+
+        ![Single DoubleRedirections](https://github.com/user-attachments/assets/c27f825a-ebac-4d42-afbe-090da7bbf359)
+
+22.   grep => Global regular Expression Print 
+
+       grep -i =>  it is used yo display or search a specific word in a file or folder
+
+      ![grep -iCommand](https://github.com/user-attachments/assets/bc830172-8e1b-4a12-bb66-f633f30f3254)
+   
+24.   grep -v => it displays all lines in the file except the word searched for
+
+       ![grep -vCommand](https://github.com/user-attachments/assets/66540520-f183-400d-bef4-a3e422913c41)
+
+25.  sed => search and edit
+
+      ![sedCommand](https://github.com/user-attachments/assets/c5582967-6795-460b-a30f-ac1754c8b37f)
+
+26.  find => it is used to search for files and directories based on various criteria such as name, size, type, and modification date.
+
+      ![findCommand](https://github.com/user-attachments/assets/30cfae14-a31e-477b-93c4-d72a6f57628f)
+
+27.  cut => The cut command cuts bytes, characters, or fields from each line of a file and writes these bytes, characters, or fields to standard output. 
+
+
+       ![cutCommand](https://github.com/user-attachments/assets/105c8c04-7ecb-4a6d-83e3-134359aeeacd)
