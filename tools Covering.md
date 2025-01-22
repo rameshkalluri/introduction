@@ -1,27 +1,24 @@
 
-
-
 DevOps:
 
-Linux Basics 5%
+Linux Basics 
 
-Git/github ==> Bitbucket/gitlab/azure repos 10%
+Git/github ==> Bitbucket/gitlab/azure repos 
 
-Jenkins ==> CI CD Tool 5%
+Jenkins ==> CI CD Tool
 
-Docker ==> Containeraization Tool 20%
+Docker ==> Containeraization Tool 
 
-Kubernetes ==> orchestration tool 20% YAML
+Kubernetes ==> orchestration tool 
 
 
 Infra DevOps:
 
-Terraform YAML
+Terraform 
 
 AWS
 
-
-Observability Devops/ Site relaibility Engineer
+Observability Devops/ Site relaibility Engineer:
 
 Monitoring ==> prometheus/grafana
 
